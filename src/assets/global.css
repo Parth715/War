@@ -1,0 +1,11 @@
+@import url("./cardStyle.css");
+@import url("./cube.css");
+@import url("./button.css");
+
+.main {
+    height: 100%;
+    width: 99%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
