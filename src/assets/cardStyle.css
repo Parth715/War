@@ -1,7 +1,19 @@
 .your-card{
-
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 15vh;
+    border: 1px solid black;
+    margin-left: 100px;
 }
 
 .opp-card{
     
+}
+
+.border{
+    border-color: black;
+    border: 5px;
+    width: 500px;
+    height: 605px; 
 }

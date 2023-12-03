@@ -161,15 +161,15 @@
 
 .glitch-button span {
     position: absolute;
-    top: 20%;
-    left: 16%;
+    top: 25%;
+    left: 7.6%;
 }
 
 .glitch-button span:first-child {
     animation: glitch 650ms infinite;
     z-index: 1;
     clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
-    transform: translate(-.05em -0.025em);
+    transform: translate(-.005em -0.025em);
 }
 
 .glitch-button span:last-child {
