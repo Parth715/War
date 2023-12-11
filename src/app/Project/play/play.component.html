@@ -1,19 +1,21 @@
-<!-- <button class="btn1" routerLink="/home" style="font-size: small; position: absolute">Leave</button> -->
+<button class="btn1" routerLink="/home" style="font-size: small; position: absolute">Leave</button>
 <div>
     <div>
-        <div class="your-card">
-            
-        </div>
-        <div>
-
+        <div class="card spacing">
+            <div class="cardSpacing"><img src="../../../assets/cards/red_joker.png"></div>
+            <div class="cardSpacing"><img src={{opponentDeck[opponentDeck.length-1].id}}></div>
         </div>
     </div>
     <div>
-        <div>
-
+        <h1>{{message}}</h1>
+    </div>
+    <div>
+        <div class="card">
+            <div class="cardSpacing"><img src="../../../assets/cards/black_joker.png"></div>
+            <div class="cardSpacing"><img src={{playersDeck[playersDeck.length-1].id}}></div>
         </div>
-        <div>
-            
+        <div class="placeDraw">
+            <a class="glitch-button placeDraw" (click)="draw()">Draw</a>
         </div>
     </div>
 </div>
